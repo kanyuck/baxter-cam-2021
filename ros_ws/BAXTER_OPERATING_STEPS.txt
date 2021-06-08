@@ -1,0 +1,13 @@
+$ cd ~/ros_ws
+$ . baxter.sh
+$ source ./devel/setup.bash 
+$ rosrun baxter_tools enable_robot.py -e
+
+https://sdk.rethinkrobotics.com/wiki/Workstation_Setup
+
+access router through internet browser: 192.168.10.1 (password on router)
+
+
+Alt-FF  https://sdk.rethinkrobotics.com/wiki/Field_Service_Menu_(FSM)#Accessing_the_FSM
+
+

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/baxter2021/ros_ws/install/setup.sh
