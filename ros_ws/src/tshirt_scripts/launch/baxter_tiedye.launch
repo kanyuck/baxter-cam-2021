@@ -1,0 +1,16 @@
+<launch>
+	
+  <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="1.28 0.10 0.19 0 0 0 base camera_link 1000" />
+   
+  
+
+  <!-- start tshirt twisting node -->
+  <node pkg="tshirt_scripts" type="twist_shirt.py" name="twist_shirt" output="screen" />
+
+  <!-- start vision node -->
+  <node pkg="tshirt_scripts" type="baxter_img.py" name="find_center" output="screen" />
+
+
+
+
+</launch>
