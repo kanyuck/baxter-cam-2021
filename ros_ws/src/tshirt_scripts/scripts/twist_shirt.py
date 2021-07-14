@@ -94,7 +94,6 @@ class Twist(object):
 		#self.RightState = EndpointState()
 		self.x0 = RightState.pose.position.x
 		self.y0 = RightState.pose.position.y
-		#need this line if you know z-offset but you found distance using the IR sensor.
 		self.camera_z = RightState.pose.position.z
 		print(camera_z) 
 		
